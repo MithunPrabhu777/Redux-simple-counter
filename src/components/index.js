@@ -7,8 +7,6 @@ const Index = () => {
     const value = useSelector(state => state.ourState.count);
     const dispatch = useDispatch();
 
-    console.log(value);
-
     return (
         <div>
             <button onClick={() => dispatch(incrementAction())}>INCREMENT</button>
